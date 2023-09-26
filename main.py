@@ -46,7 +46,7 @@ def displayMessage():
                 exit()
                 
             else:
-                print("Invalid input!!!")
+                print("Not a valid input!!!")
                 print("Please select the value as per the provided options")
                 print()
         except:
