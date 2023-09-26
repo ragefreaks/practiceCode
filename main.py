@@ -17,7 +17,7 @@ Select desirable option
 
 def displayMessage():
     
-    """ Inside the function, a while loop is continously executes until the user wants to exit"""
+    """ Inside the function to exit"""
     
     while True:
         
