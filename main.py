@@ -41,7 +41,7 @@ def displayMessage():
                 
             elif(choose == 3):
                 print()
-                print(" Thank you for using our application")
+                print(" Thanks for using our application")
                 print()
                 exit()
                 
