@@ -7,10 +7,10 @@ def file():
     try:
         f=open(f"{first_name}.txt","r")
         f.close()
-        print("Bill exists with this name!")
+        print("Bill already available with this name!")
         print()
         print("--------------------------------")
-        print("Lets proceed further dude")
+        print("Lets proceed further nah!")
         print("--------------------------------")
         print()
 
