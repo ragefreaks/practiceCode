@@ -9,21 +9,21 @@ option='''
 Select desirable option
 (1) || Press 1 to rent a custome.
 (2) || Press 2 to return a custome.
-(3) || Press 3 to exit
+(3) || Press 3 to exit the app
 
 '''
 
 
 def displayMessage():
     
-    """ Inside the function to exit"""
+    """ Exit Function decided"""
     
     while True:
         
         print(option)
 
         try:
-            choose =int(input("Get an Option "))
+            choose =int(input("Get an Option for that! "))
             print()
 
             if(choose == 1):
