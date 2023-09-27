@@ -50,14 +50,14 @@ def mis_cost():
 
         while validID == True:
 
-            ID = int(input("Please, Enter ID of custome you want to return: "))
+            ID = int(input("Please pass the ID of custome you want to return: "))
 
             if ID >0 and ID<=len(dictt):
                 validID = False
                 return ID
         
             else:
-                print("Invalid input, Please enter the valid ID")
+                print("Input is not valid, Please enter the valid ID")
                 
     def get_qt(dictt,ID):
 
