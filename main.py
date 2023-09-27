@@ -1,5 +1,4 @@
 
-
 import rent as rent,return_cust
 
 print()
@@ -24,7 +23,7 @@ def displayMessage():
         print(option)
 
         try:
-            choose =int(input("Choose an Option "))
+            choose =int(input("Get an Option "))
             print()
 
             if(choose == 1):
